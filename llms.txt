@@ -1,0 +1,33 @@
+# skills-executive
+
+Claude Code skill suite for executives, directors, and senior leaders.
+
+## Skills
+
+### board-memo
+Drafts executive-quality board memos, investor updates, and leadership communications. Converts raw thinking and bullet points into structured, decisive executive writing that gets read. Produces board memo standard format: Situation, Options, Recommendation, Rationale, Risks, Decision needed, Timeline.
+
+Triggers: board memo, board update, board communication, executive memo, board deck narrative, board letter, stakeholder memo
+
+### okr-builder
+Builds well-structured OKRs from strategic priorities for company, department, or team level. Ensures Objectives are inspiring and qualitative, Key Results are measurable and time-bound (Verb + metric + from/to + date format), flags anti-patterns (tasks as KRs, vanity metrics, no baselines), and provides a 0.0–1.0 grading rubric.
+
+Triggers: OKR, objectives key results, quarterly goals, team OKRs, goal setting, strategic goals, Q goals
+
+### decision-log
+Documents important decisions in a structured, durable format that captures WHY a decision was made. Covers decision type, one-sentence summary, context, options considered (pros/cons/why not chosen), chosen option with specific rationale, trade-offs acknowledged, success criteria, and deciders. Outputs a markdown document suitable for Notion, Confluence, or GitHub.
+
+Triggers: decision log, document decision, ADR, architectural decision, decision record, strategic decision, decision documentation
+
+### stakeholder-update
+Generates clear, concise stakeholder updates for any audience (exec, team, board, investors, cross-functional, all-company, external). Structure: Headline → Status (🟢🟡🔴) → Wins → Challenges/blockers → Next period → Decisions needed. Tone calibrated per audience. Produces 3 email subject line options.
+
+Triggers: stakeholder update, weekly update, status update, project update, leadership update, progress update, team newsletter
+
+## Installation
+
+```bash
+npm install @gonzih/skills-executive
+```
+
+Skills are copied to `~/.claude/skills/` on install. Restart Claude Code to activate.
