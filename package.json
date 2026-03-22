@@ -1,0 +1,34 @@
+{
+  "name": "@gonzih/skills-executive",
+  "version": "1.0.0",
+  "description": "Claude Code skill suite for executives, directors, and senior leaders — board memos, OKRs, decision logs, and stakeholder updates",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skills",
+    "executive",
+    "leadership",
+    "board-memo",
+    "okr",
+    "decision-log",
+    "stakeholder-update"
+  ],
+  "author": "gonzih",
+  "license": "MIT",
+  "main": "install.js",
+  "bin": {
+    "skills-executive": "install.js"
+  },
+  "files": [
+    "skills/",
+    "install.js",
+    "llms.txt",
+    "README.md"
+  ],
+  "scripts": {
+    "postinstall": "node install.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
