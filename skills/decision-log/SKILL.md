@@ -181,3 +181,22 @@ We chose to build because:
 - **Decision made by**: Sarah Chen (CRO), Marcus Webb (CTO)
 - **Forum**: Executive leadership offsite, March 19, 2026
 - **Reversibility**: Reversible in 12–18 months at cost of migration; not trivially reversible
+
+## Live Data Sources
+
+Use these integrations and patterns to store and surface decision records in your existing tooling:
+
+**Notion API Integration**
+- Notion API docs: `https://developers.notion.com/`
+- Create a Decision Log database in Notion with properties matching this skill's schema: Decision, Type, Date, Status, Deciders, Reversibility, Next Review
+- POST a new database entry via API: `POST https://api.notion.com/v1/pages` with `parent.database_id` pointing to your decision log database
+- Useful Notion database properties for decision records: `Title` (decision summary), `Select` (type: Strategic/Operational/Technical/People), `Date` (decided), `People` (deciders), `Checkbox` (reversible), `Date` (next review)
+- Notion integration pattern: use a Claude-generated markdown decision record → paste into Notion page body, populate structured properties via API for filtering/reporting
+
+**Confluence Webhook Pattern**
+- Confluence REST API for creating pages: `POST https://your-domain.atlassian.net/wiki/rest/api/content`
+- Create a dedicated Confluence space or page tree for decision records (e.g., `Engineering Decisions`, `Strategic Decisions`)
+- Set up a Confluence webhook to notify Slack or Teams when a new decision record page is created: Confluence Space → Space Settings → Webhooks
+- Page body format: use Confluence storage format (XHTML) or post via the `body.wiki` format for simpler markdown-like input
+- Recommended Confluence structure: top-level page per quarter → child pages per decision, with labels `decision-record`, `strategic`, `technical` etc. for cross-space search
+- Atlassian automation rule pattern: when a page with label `decision-record` is created → notify a Slack channel via webhook → assign a review date reminder

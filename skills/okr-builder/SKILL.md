@@ -125,3 +125,23 @@ Scores of 0.7 across a cycle = outstanding quarter. Consistent 1.0s means target
 | KR3 | Achieve EMEA CAC payback ≤18 months for Q2 closed deals | undefined | ≤18 mo | ≤18 mo |
 
 **Grading note**: These are stretch targets — 0.7 grade means 7 customers / €350K pipeline / 24-month payback. That still represents a successful market entry.
+
+## Live Data Sources
+
+Use these sources to calibrate OKR targets against real-world benchmarks:
+
+**YC OKR Resources**
+- Y Combinator's Startup School library includes OKR guidance from YC partners and founders: `https://www.startupschool.org/library`
+- YC's "How to Set Goals" resources emphasize company-level OKRs with measurable KRs tied to growth metrics, revenue, and retention — highly relevant for early-to-mid stage companies
+- YC Partner advice distilled: aim for one primary metric per quarter (often called a "north star KR"), with 2–3 supporting KRs
+
+**Lattice OKR Benchmark Patterns**
+- Lattice's People Management Resource Center publishes benchmark data on KR adoption, grading distributions, and team-level OKR patterns: `https://lattice.com/library`
+- Common Lattice benchmark: high-performing teams average 3 objectives with 3–4 KRs each; 68% of KRs are outcome-based vs. output-based
+- Lattice OKR templates cover Engineering, Product, Sales, Marketing, and People functions — useful for function-specific KR language
+
+**Public OKR Examples from Tech Companies**
+- Google's re:Work OKR guide (the original public OKR framework): `https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/`
+- Spotify, LinkedIn, and Uber have published OKR examples in engineering and product blogs — search `[company name] OKR examples site:engineering.atspotify.com` or equivalent
+- GitLab's public handbook contains their live company and team OKRs: `https://about.gitlab.com/company/okrs/`
+- Weekdone OKR examples library aggregates public tech company OKR examples by function: `https://weekdone.com/resources/objectives-key-results`
