@@ -198,3 +198,25 @@ Big thank you to everyone who stayed late during launch week. This team delivere
 
 **Ask for Data team**
 - We need the funnel analytics dashboard updated to include the new onboarding step 3 event by **Friday March 22 EOD**. Without this, we can't validate the fix. Owner: Priya will send you the event schema by tomorrow noon.
+
+## Live Data Sources
+
+Use these sources to ground stakeholder updates in real financial disclosures and IR communication patterns:
+
+**SEC EDGAR 8-K Earnings Release Patterns**
+- 8-K Item 2.02 (Results of Operations) filings contain earnings press releases — the gold standard for executive stakeholder communication structure: `https://efts.sec.gov/LATEST/search-index?q=&forms=8-K&dateRange=custom&startdt=2024-01-01`
+- Pattern: headline metric → period comparison → segment breakdown → forward guidance → management quote → tables
+- Search a specific company's 8-K filings: `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=[NAME]&type=8-K&dateb=&owner=include&count=10`
+- Useful for modeling the tone, cadence, and structure of investor-facing updates and earnings narratives
+
+**Fortune 500 IR Page Templates**
+- Microsoft IR: `https://www.microsoft.com/en-us/investor` — model for quarterly earnings update structure, press release format, and supplemental data tables
+- Apple IR: `https://investor.apple.com/` — model for concise earnings narrative with revenue/margin leading, then segment detail
+- Salesforce IR: `https://investor.salesforce.com/` — SaaS-specific IR pattern with ARR, remaining performance obligations, and operating cash flow emphasis
+- Common Fortune 500 IR update structure: Headline financial results → Segment performance → Balance sheet highlights → Guidance update → CEO/CFO quote → Tables
+- Adapt these structures for internal leadership updates: replace GAAP disclosures with your key operating metrics using the same lead-with-headline, support-with-data pattern
+
+**Earnings Call Transcript Patterns**
+- Motley Fool Transcripts and Seeking Alpha publish public earnings call transcripts — useful for modeling the spoken/written executive communication register
+- Structure pattern from earnings calls: prepared remarks (CEO sets narrative → CFO details numbers → guidance) → Q&A (anticipate and address top investor questions)
+- Apply this structure to internal all-hands or board update formats: narrative framing first, numbers second, forward-looking last

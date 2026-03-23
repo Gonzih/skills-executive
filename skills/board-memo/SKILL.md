@@ -120,3 +120,21 @@ Board approval to proceed with LOI at $15M valuation. Term sheet requires board 
 - April 15: Due diligence complete
 - May 10: Definitive agreement signed
 - June 1: Close and Day 1 integration begins
+
+## Live Data Sources
+
+Use these sources to ground board memos in real, current data:
+
+**SEC EDGAR DEF 14A Proxy Statements**
+- Search recent proxy filings: `https://efts.sec.gov/LATEST/search-index?q=&dateRange=custom&startdt=2024-01-01&forms=DEF+14A`
+- DEF 14A filings contain executive compensation benchmarks, board composition data, governance disclosures, and shareholder vote outcomes — useful for competitive positioning and compensation context in board memos
+- Filter by company name or SIC code to find peer proxies
+- EDGAR full-text search: `https://efts.sec.gov/LATEST/search-index?q="board+of+directors"&forms=DEF+14A` for thematic research
+
+**SEC EDGAR 8-K Material Events**
+- Recent 8-K filings reveal peer company announcements, M&A transactions, leadership changes, and material events — useful for competitive context sections of acquisition or strategic memos
+- Search: `https://efts.sec.gov/LATEST/search-index?q=&forms=8-K&dateRange=custom&startdt=2024-01-01`
+
+**SEC EDGAR 10-K / 10-Q Financials**
+- Pull audited financials for comparable companies when building valuation rationale or competitive benchmarks
+- Search: `https://efts.sec.gov/LATEST/search-index?q=&forms=10-K`
